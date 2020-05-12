@@ -412,7 +412,6 @@
 			".azurewebsites.net",
 			".cloudapp.net",
 			".cloudapp.azure.com",
-			".trafficmanager.net",
 			".blob.core.windows.net",
 			".azure-api.net",
 			".azurehdinsight.net",
@@ -474,6 +473,14 @@
 		"service": "smugmug",
 		"cname": [
 			"domains.smugmug.com"
+		],
+		"fingerprint": [],
+		"nxdomain": true
+	},
+	{
+		"service": "Elasticbeanstak",
+		"cname": [
+			"elasticbeanstalk.com"
 		],
 		"fingerprint": [],
 		"nxdomain": true
