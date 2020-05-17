@@ -1,28 +1,15 @@
 [
 	{
-		"service": "cloudfront",
-		"cname": [
-			".cloudfront.net"
-		],
-		"fingerprint": [
-			"ERROR: The request could not be satisfied"
-		],
-		"verify": {
-			"ssl": true,
-			"body": "Bad request."
-		},
-		"nxdomain": false
-	},
-	{
-		"service": "fastly",
-		"cname": [
-			"fastly"
-		],
-		"fingerprint": [
-			"Fastly error: unknown domain"
-		],
-		"nxdomain": false
-	},
+                "service":"UBERFLIP",
+                "cname":[
+                        "read.uberflip.com"
+                ],
+                "fingerprint":[
+                        "Non-hub domain"
+                        "Please check the url and try again"
+                ]
+                "nxdomain": false
+        },
 	{
 		"service": "github",
 		"cname": [
