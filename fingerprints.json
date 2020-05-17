@@ -8,7 +8,7 @@
                         "Non-hub domain"
                         "Please check the url and try again"
                 ]
-                "nxdomain": false
+                "nxdomain": true
         },
 	{
 		"service": "github",
