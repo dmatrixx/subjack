@@ -105,6 +105,7 @@ func writeJSON(service, url, output string) {
 	if err != nil {
 		log.Fatalln(err)
 	}
+	defer wf.Close()
 
 	wf.Write(results)
 }
