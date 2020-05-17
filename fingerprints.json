@@ -1,14 +1,14 @@
 [
 	{
-                "service":"UBERFLIP",
+                "service": "UBERFLIP",
                 "cname":[
                         "read.uberflip.com"
                 ],
                 "fingerprint":[
-                        "Non-hub domain"
+                        "Non-hub domain",
                         "Please check the url and try again"
                 ]
-                "nxdomain": true
+                "nxdomain": false
         },
 	{
 		"service": "github",
