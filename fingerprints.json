@@ -1,5 +1,25 @@
 [
 	{
+		"service": "PINGDOM",
+		"cname": [
+			"stats.pingdom.com"
+		],
+		"fingerprint": [
+			"Public Report Not Activated"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "NGROK",
+		"cname": [
+			".ngrok.io"
+		],
+		"fingerprint": [
+			"not found"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "fastly",
 		"cname": [
 			"fastly"
