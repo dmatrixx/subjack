@@ -9,7 +9,7 @@
         },
         {
                 "service":"EC2",
-                "cname"[
+                "cname": [
                         ".compute.amazonaws.com"
                 ],
                 "fingerprint":[],
