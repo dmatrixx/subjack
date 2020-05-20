@@ -1,4 +1,20 @@
 [
+	        {
+                "service":"ELB",
+                "cname":[
+                        ".elb.amazonaws.com"
+                ],
+                "fingerprint":[],
+                "nxdomain": true
+        },
+        {
+                "service":"EC2",
+                "cname"[
+                        ".compute.amazonaws.com"
+                ],
+                "fingerprint":[],
+                "nxdomain": true
+        },
 	{
                 "service": "UBERFLIP",
                 "cname":[
