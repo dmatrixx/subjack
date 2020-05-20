@@ -90,14 +90,6 @@
 		],
 		"nxdomain": false
 	},
-	{
-                "service":"ELB",
-                "cname":[
-                        ".elb.amazonaws.com"
-                ],
-                "fingerprint":[],
-                "nxdomain": true
-        },
         {
                 "service":"EC2",
                 "cname": [
