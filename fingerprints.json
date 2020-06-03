@@ -421,7 +421,15 @@
 			".trafficmanager.net",
 			".azure-api.net",
 			".azurehdinsight.net",
-			".azureedge.net"
+			".azureedge.net",
+			".azurecontainer.io",
+			".database.windows.net",
+			".azuredatalakestore.net",
+			".search.windows.net",
+			".azurecr.io",
+			".redis.cache.windows.net",
+			".servicebus.windows.net",
+			".visualstudio.com"
 		],
 		"fingerprint": [],
 		"nxdomain": true
@@ -484,7 +492,7 @@
 		"nxdomain": true
 	},
 	{
-		"service": "Elasticbeanstak",
+		"service": "Elasticbeanstalk",
 		"cname": [
 			"elasticbeanstalk.com"	
 		],
