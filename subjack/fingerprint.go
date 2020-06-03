@@ -49,23 +49,8 @@ func detect(url, output string, ssl, verbose, manual bool, timeout int, config [
 
 	if service != "" {
 		result := fmt.Sprintf("[%s] %s\n", service, url)
-		c := fmt.Sprintf("\u001b[32;1m%s\u001b[0m", service)
+		c := fmt.Sprintf("\u001b %s\u001b", service)
 		out := strings.Replace(result, service, c, -1)
-		fmt.Printf(out)
-
-		if output != "" {
-			if chkJSON(output) {
-				writeJSON(service, url, output)
-			} else {
-				write(result, output)
-			}
-		}
-	}
-
-	if service == "" && verbose {
-		result := fmt.Sprintf("[Not Vulnerable] %s\n", url)
-		c := "\u001b[31;1mNot Vulnerable\u001b[0m"
-		out := strings.Replace(result, "Not Vulnerable", c, -1)
 		fmt.Printf(out)
 
 		if output != "" {
