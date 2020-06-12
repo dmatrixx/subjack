@@ -1,5 +1,25 @@
 [
 	{
+		"service": "pingdom",
+		"cname": [
+			"stats.pingdom.com"
+		],
+		"fingerprint": [
+			"pingdom"
+		],
+		"nxdomain": false
+	},
+	{
+		"service": "smartling",
+		"cname": [
+			".smartling.com"
+		],
+		"fingerprint": [
+			"Domain is not configured"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "fastly",
 		"cname": [
 			"fastly"
