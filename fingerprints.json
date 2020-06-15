@@ -1,5 +1,15 @@
 [
 	{
+		"service": "DIVIO",
+		"cname": [
+			".aldryn.io"
+		],
+		"fingerprint": [
+			"Application not responding"
+		],
+		"nxdomain": false
+	},
+	{
 		"service": "pingdom",
 		"cname": [
 			"stats.pingdom.com"
